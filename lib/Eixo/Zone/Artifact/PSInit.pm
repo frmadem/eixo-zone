@@ -70,7 +70,7 @@ sub integrity{
 sub __setFlags{
 	my ($self, %opts) = @_;
 
-	my $flags = 0 | $self->{ctl}->NEWPID | 17;
+	my $flags = 0 | $self->{ctl}->CLONE_NEWPID | 17;
 
 	# new mount?
 	$flags |= $self->{ctl}->CLONE_NEWNS if(
