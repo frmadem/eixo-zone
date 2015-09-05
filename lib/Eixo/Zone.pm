@@ -4,6 +4,8 @@ use 5.018002;
 use strict;
 use warnings;
 
+our $VERSION = 0.002;
+
 use Eixo::Zone::Driver;
 use Eixo::Zone::Starter;
 
