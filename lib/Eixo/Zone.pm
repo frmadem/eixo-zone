@@ -68,6 +68,12 @@ Eixo::Zone - Perl's Linux namespace manipulation tool
 
 Perl's native Linux namespaces manipulation tool
 
+=head1 Installation
+
+You need a Linux kernel >= 3.12 for namespaces.
+
+You also need brige-utils package for managing network bridges.
+
 =head1 ENTITIES
 
 =head2 Zone
