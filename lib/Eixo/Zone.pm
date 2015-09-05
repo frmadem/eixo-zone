@@ -62,11 +62,11 @@ __END__
 
 =head1 NAME
 
-Eixo::Zone
+Eixo::Zone - Perl's Linux namespace manipulation tool
 
 =head1 DESCRIPTION
 
-Perl's native Linux namespaces manipulation
+Perl's native Linux namespaces manipulation tool
 
 =head1 ENTITIES
 
