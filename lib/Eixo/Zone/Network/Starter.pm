@@ -112,7 +112,7 @@ sub init{
 sub __initNamespace{
 	my ($self, $r, $net_ns, %n_data) = @_;
 
-	my $net_ns = Eixo::Zone::Artifact::NetworkNS->new(
+	$net_ns = Eixo::Zone::Artifact::NetworkNS->new(
 
 			$net_ns,
 
